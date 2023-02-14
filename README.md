@@ -10,7 +10,7 @@ The dataset used in this project can be downloaded from [here](https://drive.goo
 
 ## Task description
 We were given a set of datasets containing images of dogs and cats, with each dataset having different watermark distribution.
-Our task was to find the differences of the datasets and the models trained on each of them and try to explain the behaviour.
+Our task was to find the differences of the datasets and the models (binary classifiers) trained on each of them and try to explain the behaviour.
 We used explainability methods such as Integrated Gradients, SHAP, LRP and others using the [Captum](https://captum.ai/) library for Model Interpretability in PyTorch.
 
 We also proposed our own metric for quantifying watermark presence/activation of the model as ratio of mask energies.
